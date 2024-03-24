@@ -9,7 +9,7 @@ namespace YourNamespace
         [TestMethod]
         public void SwapValues()
         {
-            // підготовка вихідних даних для тесту
+            // РїС–РґРіРѕС‚РѕРІРєР° РІРёС…С–РґРЅРёС… РґР°РЅРёС… РґР»СЏ С‚РµСЃС‚Сѓ
             int A = 4;
             int B = 5;
             int C = 6;
@@ -17,7 +17,7 @@ namespace YourNamespace
             int expectedB = 4;
             int expectedC = 5;
 
-            // виклик методу, який тестуємо
+            // РІРёРєР»РёРє РјРµС‚РѕРґСѓ, СЏРєРёР№ С‚РµСЃС‚СѓС”РјРѕ
             Program.SwapValues(ref A, ref B, ref C);
 
 
@@ -29,7 +29,7 @@ namespace YourNamespace
 
     public class Program
     {
-        //метод для обміну значень трьох цілих чисел
+        //РјРµС‚РѕРґ РґР»СЏ РѕР±РјС–РЅСѓ Р·РЅР°С‡РµРЅСЊ С‚СЂСЊРѕС… С†С–Р»РёС… С‡РёСЃРµР»
         public static void SwapValues(ref int a, ref int b, ref int c)
         {
             int temp = a;
